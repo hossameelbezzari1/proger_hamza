@@ -1,0 +1,40 @@
+
+.hrFooter{
+    /* width: 261px; */
+    border: 1px solid rgb(105 105 115);
+}
+
+.aboutSite{
+    margin-top: 40px;
+}
+.aboutSite p {
+    color: rgb(108, 114, 132);
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    margin-top: 0px;
+    padding-bottom: 11px;
+    font-size: 18px;
+}
+.titleFooter{
+    font-weight: 400;
+    padding-bottom: 15px;
+    margin: 0px 0px 25px;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.elementFooter ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.elementFooter a {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: rgb(108, 114, 132);
+    font-size: 17px;
+}

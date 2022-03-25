@@ -1,0 +1,64 @@
+
+.heaPopup{
+    color: white;
+    display: flex;
+    flex-direction: revert;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid rgb(94, 94, 94);
+    padding-bottom: 10px;
+}
+.heaPopup h3 {
+    margin: 0;
+    font-size: 16px;
+}
+.heaPopup i {
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.paragPopup{
+    color: white;
+    padding: 20px 10px;
+    font-size: 15px;
+    text-align: center;
+}
+.linkPopup {
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    display: flex;
+}
+#BacPopup {
+        width: 100%;
+        height: 100%;
+        background: #0d0f1378;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 9999999999;
+        display: none;
+    }
+
+@media (max-width:700px){
+    #BoxPopUp {
+        margin: 0;
+        background-color: rgb(39, 38, 57);
+        box-shadow: rgb(0 0 0 / 5%) 0px 4px 8px 0px;
+        width: 66%;
+        border-radius: 14px !important;
+        transform: translate(27%, 70%);
+        padding: 13px;
+    }
+}
+@media (min-width: 701px){
+    #BoxPopUp {
+        margin: 0;
+        background-color: rgb(39, 38, 57);
+        box-shadow: rgb(0 0 0 / 5%) 0px 4px 8px 0px;
+        width: 35%;
+        border-radius: 14px !important;
+        transform: translate(97%, 70%);
+        padding: 13px;
+    }
+}

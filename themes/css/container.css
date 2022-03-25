@@ -1,0 +1,79 @@
+.backImBox {
+    display: flex;
+    color: rgb(255, 255, 255);
+    flex-flow: column wrap;
+    position: relative;
+    height: 221px;
+    background: linear-gradient(75.11deg, rgba(57, 112, 255, 0.2) 7.76%, rgba(23, 185, 254, 0.2) 92.83%) no-repeat fixed;
+    margin: 0px 28px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.backImBox img {
+    right: 0;
+    top: -33px;
+    position: absolute;
+    max-width: 347px;
+}
+@media (max-width:500px){
+    .boxtextHjk{
+        padding: 20px;
+    }
+    .LockYou{
+        width: 100%;
+        text-align: center;
+    }
+    .elembottonje{
+        text-align: center;
+    }
+    .stackNow{
+        margin: auto;
+        padding: 10px 20px;
+        font-size: 18px;
+        color: rgb(23, 185, 254);
+        width: 201px;
+        height: 46px;
+        background: rgba(174, 172, 203, 0.1);
+        border-radius: 5px;
+        border: 2px solid rgb(23, 185, 254);
+        cursor: pointer;
+    }
+    .elementFooter{
+        text-align: center;
+        margin: auto;
+    }
+}
+@media (min-width:501px){
+    .llokh1 {
+        text-align: start;
+    }
+    .boxtextHjk{
+        padding: 20px;
+    }
+    .LockYou {
+        width: 100%;
+        text-align: center;
+        margin-top: 40px;
+    }
+    .elembottonje{
+        text-align: center;
+    }
+    .stackNow{
+        margin: auto;
+        display: block;
+        padding: 10px 20px;
+        font-size: 18px;
+        color: rgb(23, 185, 254);
+        width: 201px;
+        height: 46px;
+        background: rgba(174, 172, 203, 0.1);
+        border-radius: 5px;
+        border: 2px solid rgb(23, 185, 254);
+        cursor: pointer;
+        margin-top: 88px;
+    }
+    .LockYou p{
+        text-align: start;
+    }
+}
